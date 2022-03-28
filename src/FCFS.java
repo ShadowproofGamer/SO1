@@ -6,6 +6,10 @@ public class FCFS {
     int waitTime = 0;
     ArrayList<Process> arr = new ArrayList<>();
     ProcessGenerator gen = new ProcessGenerator();
+
+    public FCFS(ArrayList<ArrayList<Process>> arrays, int timeBetween){
+
+    }
     public FCFS(){
         doIt();
     }
